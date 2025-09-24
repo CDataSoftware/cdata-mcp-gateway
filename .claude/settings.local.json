@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @modelcontextprotocol/inspector:*)",
+      "Bash(\"/Applications/CData MCP Servers for Salesforce 2025.app/Contents/Payload/jre/Contents/Home/bin/java\" -Dfile.encoding=UTF-8 -jar \"/Applications/CData MCP Servers for Salesforce 2025.app/Contents/Payload/lib/cdata.mcp.salesforce.jar\" salesforce_dev)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
